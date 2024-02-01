@@ -15,6 +15,16 @@
   function sendLink() {
     Kakao.Link.sendDefault({
       objectType: 'feed',
+      content: {
+        title: '인스타그램',
+        description: '',
+        imageUrl:
+          'https://www.instagram.com/images/instagram/xig/homepage/screenshots/screenshot1.png?__d=www',
+        link: {
+          mobileWebUrl: '',
+          webUrl: '',
+        },
+      },
       buttons: [
         {
           title: '책팅카페 프렌즈만 열람 가능💛',
